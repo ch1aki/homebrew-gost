@@ -2,16 +2,16 @@
 class Gost < Formula
   desc ""
   homepage "https://github.com/ch1aki/gost"
-  version "0.0.1"
+  version "0.0.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/ch1aki/gost/releases/download/v0.0.1/gost_0.0.1_Darwin_x86_64.tar.gz"
-    sha256 "007a72b8816ec5b182301967c03758316a2a06961f847bf465ff554c9ab5de3f"
+    url "https://github.com/ch1aki/gost/releases/download/v0.0.2/gost_0.0.2_Darwin_x86_64.tar.gz"
+    sha256 "a5eaf24f7bf1ce076549a1d3610c56156df599526af2e7927fe7bb6038a54233"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/ch1aki/gost/releases/download/v0.0.1/gost_0.0.1_Linux_x86_64.tar.gz"
-      sha256 "9920878b0281f42dce71525077c24bc92989ff4ac543311678738d795f46be69"
+      url "https://github.com/ch1aki/gost/releases/download/v0.0.2/gost_0.0.2_Linux_x86_64.tar.gz"
+      sha256 "da3f9e68a23ec83753e9b447c805339097d47714d33285240a3b40c55d4c2ea5"
     end
   end
 
