@@ -7,11 +7,11 @@ class Gost < Formula
 
   if OS.mac?
     url "https://github.com/ch1aki/gost/releases/download/v0.0.4/gost_0.0.4_Darwin_x86_64.tar.gz"
-    sha256 "1727e47338f27e329d3017a876a98307352abfced3161d5c36efe199530e4801"
+    sha256 "724ca0d69707089b153e8b5ea5249923f51d0afeee4d9d960f9d67ed02ed197d"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/ch1aki/gost/releases/download/v0.0.4/gost_0.0.4_Linux_x86_64.tar.gz"
-      sha256 "aec208501c5d3e5af2163a7b486fee2ecb7677fc48a4ab2525b9a3def419b11d"
+      sha256 "27a9e43871643d911e2af346b5f4375795af3b8d2fae8711486eb2d1360e3a3d"
     end
   end
 
